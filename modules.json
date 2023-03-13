@@ -1,0 +1,20 @@
+{
+    "name": "streitlab/cellranger_multiomic",
+    "homePage": "TODO",
+    "repos": {
+        "nf-core/modules": {
+            "cellranger/count": {
+                "git_sha": "e20e57f90b6787ac9a010a980cf6ea98bd990046"
+            },
+            "cellranger/mkgtf": {
+                "git_sha": "e20e57f90b6787ac9a010a980cf6ea98bd990046"
+            },
+            "cellranger/mkref": {
+                "git_sha": "e20e57f90b6787ac9a010a980cf6ea98bd990046"
+            },
+            "untar": {
+                "git_sha": "e20e57f90b6787ac9a010a980cf6ea98bd990046"
+            }
+        }
+    }
+}

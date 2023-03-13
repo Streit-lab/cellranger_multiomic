@@ -1,0 +1,3 @@
+cellranger_atac/count:
+  - modules/cellranger_atac/count/**
+  - tests/modules/cellranger_atac/count/**

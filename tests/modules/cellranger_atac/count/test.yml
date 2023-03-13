@@ -1,0 +1,6 @@
+- name: cellranger atac count
+  command: nextflow run ./tests/modules/cellranger_atac/count/main.nf -entry test_cellranger_atac_count -c ./tests/config/nextflow.config -c ./tests/modules/cellranger_atac/count/nextflow.config -stub
+  tags:
+    - cellranger_atac/cellranger_count
+  files:
+    - path: ./output/cellranger_atac/
