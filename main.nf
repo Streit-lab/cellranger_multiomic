@@ -24,7 +24,7 @@ params.gtf       = WorkflowMain.getGenomeAttribute(params, 'gtf')
 
 include { CELLRANGER_MULTIOMIC } from './workflows/cellranger_multiomic'
 
-workflow LUSLAB_CELLRANGER_MULTIOMIC {
+workflow STREITLAB_CELLRANGER_MULTIOMIC {
     CELLRANGER_MULTIOMIC ()
 }
 
