@@ -27,12 +27,12 @@ for (param in checkPathParamList) { if (param) { file(param, checkIfExists: true
 // Check mandatory parameters that cannot be checked in the groovy lib as we want a channel for them
 if (params.sample_sheet) { ch_sample_sheet = file(params.sample_sheet) } else { exit 1, "Input samplesheet not specified!" }
 
-// Save AWS IGenomes file containing annotation version
-def anno_readme = params.genomes[ params.genome ]?.readme
-if (anno_readme && file(anno_readme).exists()) {
-    file("${params.outdir}/genome/").mkdirs()
-    file(anno_readme).copyTo("${params.outdir}/genome/")
-}
+// // Save AWS IGenomes file containing annotation version
+// def anno_readme = params.genomes[ params.genome ]?.readme
+// if (anno_readme && file(anno_readme).exists()) {
+//     file("${params.outdir}/genome/").mkdirs()
+//     file(anno_readme).copyTo("${params.outdir}/genome/")
+// }
 
 // Stage dummy file to be used as an optional input where required
 ch_dummy_file = file("$projectDir/assets/dummy_file.txt", checkIfExists: true)
