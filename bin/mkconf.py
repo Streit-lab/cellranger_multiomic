@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/env python
 
 import sys
 import os
@@ -35,5 +35,3 @@ if args.input_motifs:
 output = open("cellranger_atac.config", "w")
 output.write(cfig)
 output.close()
-
-

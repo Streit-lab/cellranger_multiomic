@@ -18,6 +18,10 @@ process CELLRANGER_ATAC_MKCONF {
     script:
     def args = task.ext.args ?: ''
     """
-    mkconf.py --gtf ${gtf} --fasta ${fasta} --genome ${reference_name} ${args}
+    mkconf.py \\
+        --gtf ${gtf} \\
+        --fasta ${fasta} \\
+        --genome ${reference_name} \\
+        ${args}
     """
 }
