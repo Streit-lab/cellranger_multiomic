@@ -1,5 +1,5 @@
 - name: whole pipeline atac data
-  command: nextflow run main.nf -c ./tests/config/nextflow.config -c ./tests/whole_pipeline_atac/nextflow.config --sample_sheet ./tests/test_data/10x-ATAC/samplesheet.csv -stub
+  command: nextflow run main.nf -c ./tests/config/nextflow.config -c ./tests/whole_pipeline_atac/nextflow.config --sample_sheet ./tests/test_data/10x-ATAC/sample_sheet.csv -stub
   tags:
     - test_whole_pipeline_atac
   files:
