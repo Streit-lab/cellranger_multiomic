@@ -1,0 +1,2 @@
+sample_id,sample_name,data,data_type
+test,test,./tests/test_data/10x-ATAC/fastqs/*,ATAC

@@ -1,0 +1,5 @@
+{
+    genome: ["REFERENCE"]
+    input_fasta: [""]
+    input_gtf: [""]
+}
